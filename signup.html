@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.background{
+			background-image: url(Cover_Page.png);
+			height: 600px;
+			width: 1020px;
+			
+			position: fixed;
+		}
+		.main{
+			height: 60%;
+			width: 30%;
+			text-align:center;
+			background-color: rgba(0, 0, 0,0.19);
+			margin: 320px;
+			margin-top:100px;
+			margin-right: 150px; 
+			border-radius: 20px;
+			border-bottom: 2px solid rgba(0, 0, 0,0.8);
+		}
+		.head{
+			text-align: center;
+			font-size: 21px;
+			text-transform: capitalize;
+			height: 50px;
+			line-height: 50px;
+			color: white;
+			border-bottom: 2px solid rgba(0, 0, 0,0.8);
+			border-radius: 20px;
+			border-top: 2px solid rgba(0, 0, 0,0.8);
+		}
+		.opt{
+			height: 30px;
+			line-height: 30px;
+			width: 100%;
+			margin-right: 120px ;
+			
+			box-sizing:border-box;
+
+		}
+		.data{
+			height: 30px;
+			line-height: 30px;
+			width: 100%;
+			margin: auto;
+			padding-right: 120px
+			box
+
+		}
+		.data input{
+			height: 20px;
+			width: 200px;
+			border-radius: 20px;
+		}
+		.opt select{
+			width: 180px;
+			height: 20px;
+			border-radius: 20px;
+		}
+		.btn{
+			height: 60px;
+			line-height: 60px;
+			width: 100px;
+			margin:auto;
+		}
+		.btn input{
+			background-color:  rgb(118, 188, 253);
+			width: 120px;
+			border-radius: 20px;
+			height: 30px;
+		}
+		.btn input:hover{
+			background-color:  rgb(154, 204, 251);
+
+		}
+
+	</style>
+</head>
+<body>
+	<div class="background">
+		<div class="main">
+			<div
+			class="head">
+				<h2>Signup</h2>
+			</div>
+			<div class="data">
+				<input type="text" placeholder="Username" name="">
+			</div>
+			<div class="data">
+				<input type="password" placeholder="Password" name=""></div>
+			<div class="data">
+				<input type="password" placeholder="Conferm-Password" name="">
+			</div>
+			<div class="data">
+				<input type="email" placeholder="user@email.com" name="">
+			</div>
+			<div class="data">
+				<input type="number" placeholder="Contact" name="">
+			</div>
+			<div class="opt">
+				<select>
+					<option>Select City</option>
+					<option>Ahamdabad</option>
+					<option>Bhopal</option>
+					<option>Chennai</option>
+					<option>Delhi</option>
+					<option>Indore</option>
+					<option>Mumbai</option>
+				</select>
+			</div>
+			<div class="opt">
+				<select>
+					<option>Select Gender</option>
+					<option>Male</option>
+					<option>Female</option>
+					<option>Other</option>
+				</select>
+			</div>
+			<div class="opt">
+				<input type="date" name="">
+			</div>
+			<div class="btn">
+				<input type="button" value="Save" name="">
+			</div>
+		</div>
+	</div>	
+</body>
+</html>
